@@ -1,6 +1,4 @@
 
-
-
 body {
     background-color: rgb(29, 29, 29);
     color: rgb(167, 167, 167);
@@ -9,25 +7,29 @@ p {
     color: rgb(255, 255, 255);
   }
 
-
 #home-intro {
-    text-align: left;
+    text-align: center;
     color: rgb(255, 255, 255);
     max-width: 600px;
-    min-width: 100px;  
+    min-width: 100px; 
+    margin: 20px auto 100px; 
   }
 
 /*start project container*/
 .project-container {
     background-color: rgb(255, 192, 192);
     max-width: 600px;
-    min-width: 100px;  
+    min-width: 100px;
+    margin: 0 auto 50px;
+    padding: 10px;
   }
+
 h3.project-container {
     color: rgb(203, 31, 31);
  }
 p.project-container {
   color: rgb(203, 31, 31);
+
 }
 /*end project container*/
 
@@ -36,7 +38,7 @@ footer {
   padding: 3px;
   background-color: DarkSalmon;
   color: white;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
